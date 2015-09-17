@@ -2,6 +2,11 @@
 Some tooling for capsule
 
 
+## Install
+
+    npm install git://github.com/teamguideio/capsule-util.git -g
+
+
 ## Setup
 To setup you'll just need to put your API key
 
