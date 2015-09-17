@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var yargs = require('yargs')
 
 var argv = yargs
