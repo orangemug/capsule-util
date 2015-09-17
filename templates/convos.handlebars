@@ -1,0 +1,16 @@
+<head>
+  <style>
+    .convo {
+      page-break-after: always;
+    }
+  </style>
+</head>
+<div>
+{{#convos}}
+  <div class="convo">
+    <img src="{{partyPictureURL}}">
+    <h1>{{partyName}}</h1>
+    <p>{{{note}}}</p>
+  </div>
+{{/convos}}
+</div>
