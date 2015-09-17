@@ -41,4 +41,4 @@ If you had a bunch of different types of conversation just run
 
 
 ## License
-MIT
+[MIT](LICENSE)
