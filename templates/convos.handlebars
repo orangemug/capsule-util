@@ -1,16 +1,40 @@
 <head>
   <style>
+
+    h1, h2 {
+      font-family: Helvetica;
+    }
+
     .convo {
       page-break-after: always;
     }
+
+    .person h1 {
+      font-size: 1.4em;
+    }
+
+    ul {
+      padding-left: 2em;
+    }
+
+    .note h1 { font-size: 1.3em; }
+    .note h2 { font-size: 1.2em; }
+    .note h3 { font-size: 1.1em; }
+    .note h4 { font-size: 1.1em; }
+    .note h5 { font-size: 1.1em; }
+    .note h6 { font-size: 1.1em; }
   </style>
 </head>
 <div>
 {{#convos}}
   <div class="convo">
-    <img src="{{partyPictureURL}}">
-    <h1>{{partyName}}</h1>
-    <p>{{{note}}}</p>
+    <div class="person">
+      <img src="{{partyPictureURL}}">
+      <h1>{{partyName}}</h1>
+    </div>
+    <div class="note">
+      {{{note}}}
+    </div>
   </div>
 {{/convos}}
 </div>
