@@ -46,5 +46,11 @@ It'll treat your capsule history as markdown so for example the following will b
     **this will be bold**
 
 
+## Examples
+To render all "customer conversations" to `customer_convos.html`
+
+    capsule-util history "customer conversations" > customer_convos.html
+
+
 ## License
 [MIT](LICENSE)
