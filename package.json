@@ -1,5 +1,5 @@
 {
-  "name": "capsule-tools",
+  "name": "capsule-util",
   "private": true,
   "version": "0.0.0",
   "bin": {
