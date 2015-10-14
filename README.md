@@ -1,7 +1,6 @@
 # capsule-util
 Some tooling for capsule
 
-[![Build Status](https://travis-ci.org/orangemug/capsule-util.svg?branch=master)](https://travis-ci.org/orangemug/capsule-util)
 [![Dependency Status](https://david-dm.org/orangemug/capsule-util.svg)](https://david-dm.org/orangemug/capsule-util)
 [![Dev Dependency Status](https://david-dm.org/orangemug/capsule-util/dev-status.svg)](https://david-dm.org/orangemug/capsule-util#info=devDependencies)
 
