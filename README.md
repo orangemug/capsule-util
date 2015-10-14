@@ -13,6 +13,7 @@ To setup you'll just need to put your API key
     ~/.config/capsule-util
     {
       "api": {
+        "subdomain": "CAPSULE_SUBDOMAIN_FOR_ACCOUT",
         "user": "API_KEY_HERE"
       }
     }
