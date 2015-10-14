@@ -7,6 +7,8 @@ module.exports = function(yargs) {
     .array("labels")
     .describe('no-page-breaks', "Don't add page breaks")
     .alias("l", "labels")
+    .alias("h", "help")
+    .help('h')
     .argv;
 
   var str = argv._[1];
@@ -16,7 +18,7 @@ module.exports = function(yargs) {
     pageBreaks: !!argv["no-page-breaks"]
   }, function(err, html) {
     if(err) {
-      console.error(err);
+      console.error("ERR:", err);
       process.exit(1);
     } else {
       console.log(html);
