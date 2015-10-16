@@ -1,8 +1,8 @@
 # capsule-util
 Some tooling for capsule
 
-[![Dependency Status](https://david-dm.org/orangemug/capsule-util.svg)](https://david-dm.org/orangemug/capsule-util)
-[![Dev Dependency Status](https://david-dm.org/orangemug/capsule-util/dev-status.svg)](https://david-dm.org/orangemug/capsule-util#info=devDependencies)
+[![Dependency Status](https://david-dm.org/teamguideio/capsule-util.svg)](https://david-dm.org/teamguideio/capsule-util)
+[![Dev Dependency Status](https://david-dm.org/teamguideio/capsule-util/dev-status.svg)](https://david-dm.org/teamguideio/capsule-util#info=devDependencies)
 
 
 ## Install
